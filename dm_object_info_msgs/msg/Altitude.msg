@@ -1,0 +1,6 @@
+int32 MIN=-100000
+int32 MAX=800000
+
+int32 UNKNOWN=800001
+
+int32 value 800001
