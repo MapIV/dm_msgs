@@ -15,18 +15,34 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-  "msg/Direction.msg"
-  "msg/DirectionConfidence.msg"
-  "msg/EllispeSemiAxisLength.msg"
-  "msg/Existency.msg"
-  "msg/HeightConfidence.msg"
-  "msg/ObjectClass.msg"
   "msg/ObjectInfo.msg"
-  "msg/ObjectPosition.msg"
+  "msg/ObjectClass.msg"
+  "msg/Existency.msg"
+  "msg/PoseWithConfidence.msg"
+  "msg/PositionWithConfidence.msg"
+  "msg/LatitudeLongitudeCoodinate.msg"
+  "msg/Position.msg"
   "msg/PositionConfidence.msg"
+  "msg/EllispeSemiAxisLength.msg"
+  "msg/Altitude.msg"
+  "msg/Heading.msg"
+  "msg/HeadingConfidence.msg"
+  "msg/HeadingWithConfidence.msg"
+  "msg/HeightConfidence.msg"
   "msg/Latitude.msg"
   "msg/Longitude.msg"
-  "msg/Altitude.msg"
+  "msg/LongitudinalAcceleration.msg"
+  "msg/LongitudinalAccelerationConfidence.msg"
+  "msg/LongitudinalAccelerationWithConfidence.msg"
+  "msg/ReferencePointId.msg"
+
+  "msg/LinearVelocity.msg"
+  "msg/LinearVelocityConfidence.msg"
+  "msg/LinearVelocityWithConfidence.msg"
+
+  "msg/YawRate.msg"
+  "msg/YawRateConfidence.msg"
+  "msg/YawRateWithConfidence.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

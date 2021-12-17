@@ -1,7 +1,4 @@
-EllispeSemiAxisLength ellispe_semi_axis_major
-EllispeSemiAxisLength ellispe_semi_axis_minor
+EllispeSemiAxisLength semi_axis_length_major
+EllispeSemiAxisLength semi_axis_length_minor
 
-Direction direction
-DirectionConfidence direction_confidence
-
-HeightConfidence height_confidence
+HeightConfidence height_confi

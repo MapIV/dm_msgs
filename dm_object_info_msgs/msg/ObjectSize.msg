@@ -1,0 +1,4 @@
+ObjectLengthWithConfidence bbx_length
+ObjectLengthWithConfidence bbx_width
+ObjectLengthWithConfidence bbx_height
+
