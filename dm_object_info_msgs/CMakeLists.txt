@@ -16,6 +16,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/ObjectInfo.msg"
+  "msg/ObjectId.msg"
   "msg/ObjectClass.msg"
   "msg/Existency.msg"
   "msg/PoseWithConfidence.msg"
@@ -48,6 +49,17 @@ set(msg_files
   "msg/ObjectLengthConfidence.msg"
   "msg/ObjectLengthWithConfidence.msg"
   "msg/ObjectColor.msg"
+
+  "msg/VehicleState.msg"
+  "msg/ShiftPosition.msg"
+  "msg/RudderAngle.msg"
+  "msg/BrakeState.msg"
+  "msg/AuxiliaryBrakeState.msg"
+  "msg/ThrottlePosition.msg"
+  "msg/ExteriorLights.msg"
+  "msg/VehicleControlSystemState.msg"
+  "msg/VehicleControlSystemStates.msg"
+  "msg/VehicleRole.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

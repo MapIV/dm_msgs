@@ -14,4 +14,4 @@ byte GOLD   =11
 byte SILVER =12
 byte OTHER  =13
 
-byte id
+byte id 0

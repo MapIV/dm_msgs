@@ -1,0 +1,12 @@
+# DE_車両用途種別
+byte PRIVATE=0
+byte EMERGENCY=1
+byte ROAD_WORK=2
+byte TRANS_PASSENGER=3
+byte TRANS_FREIGHT=4
+byte SPECIAL=5
+byte RESERVED_MIN=6
+byte RESERVED_MAX=14
+byte UNKNOWN=15
+
+byte id 15

@@ -1,7 +1,7 @@
 # Object information message format
 
 # 物標 ID
-uint64 station_id
+ObjectId id
 
 # 情報取得時刻
 builtin_interfaces/Time stamp
