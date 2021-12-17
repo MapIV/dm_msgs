@@ -33,3 +33,5 @@ LongitudinalAccelerationWithConfidence acc
 # 物標の状態/属性
 ObjectState object_state
 
+# 情報源のリスト
+ObjectId[] source_list
