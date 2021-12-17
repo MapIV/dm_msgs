@@ -1,9 +1,12 @@
-# This message is not fixed
-# ??? <- means that is not fixed property
+# DF_ObjectClass
+# 物標の分類(車両 ,人 ,動物, その他の物標)
+ClassId id
 
-# ??? class
+# 分類信頼度
+ClassConfidence confi
 
-uint8 UNKNOWN = 0
-uint8 confidence 0
-
-# ??? some
+# 分類毎の種別情報
+VehicleSubclass vehicle
+PersonSubclass person
+AnimalSubclass animal
+OtherSubclass other

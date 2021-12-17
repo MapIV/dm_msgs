@@ -1,3 +1,5 @@
+# DF_WGS84 方位値
+
 uint16 NORTH=0
 uint16 EAST=9000
 uint16 WEST=18000

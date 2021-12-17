@@ -1,3 +1,5 @@
+# DE_前後加速度精度
+
 uint16 MIN=1
 uint16 MAX=1000
 

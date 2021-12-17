@@ -18,6 +18,8 @@ set(msg_files
   "msg/ObjectInfo.msg"
   "msg/ObjectId.msg"
   "msg/ObjectClass.msg"
+  "msg/ClassId.msg"
+  "msg/ClassConfidence.msg"
   "msg/Existency.msg"
   "msg/PoseWithConfidence.msg"
   "msg/PositionWithConfidence.msg"
@@ -60,6 +62,15 @@ set(msg_files
   "msg/VehicleControlSystemState.msg"
   "msg/VehicleControlSystemStates.msg"
   "msg/VehicleRole.msg"
+
+  "msg/VehicleSubclass.msg"
+  "msg/VehicleSubclassType.msg"
+  "msg/PersonSubclass.msg"
+  "msg/PersonSubclassType.msg"
+  "msg/AnimalSubclass.msg"
+  "msg/AnimalSubclassType.msg"
+  "msg/OtherSubclass.msg"
+  "msg/OtherSubclassType.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

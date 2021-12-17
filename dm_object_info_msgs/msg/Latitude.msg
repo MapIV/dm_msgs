@@ -1,3 +1,4 @@
+# DE_Latitude
 int32 MIN=-900000000
 int32 MAX=900000000
 

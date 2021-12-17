@@ -1,3 +1,5 @@
+# DE_WGS84 方位精度
+
 uint16 MIN=1
 uint16 MAX=9000
 

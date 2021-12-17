@@ -1,3 +1,4 @@
+# DE_Altitude (WGS84)
 int32 MIN=-100000
 int32 MAX=800000
 

@@ -1,4 +1,4 @@
-# range
+# DF_物標寸法
 uint16 MIN=1
 uint16 MAX=65534
 

@@ -1,0 +1,16 @@
+# DE_VehicleSubclassType
+
+byte UNKNOWN=0
+byte MOPED=1
+byte MOTORCYCLE=2
+byte PASSENGER_CAR=3
+byte BUS=4
+byte TRUCK_LIGHT=5
+byte TRUCK_HEAVY=6
+byte TRAILER=7
+byte SPECIAL_VEHICLES=8
+byte TRAM=9
+byte EMERGENCY_VEHICLE=10
+byte AGRICUTURAL=11
+
+byte id 0
