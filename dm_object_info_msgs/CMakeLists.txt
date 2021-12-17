@@ -71,6 +71,9 @@ set(msg_files
   "msg/AnimalSubclassType.msg"
   "msg/OtherSubclass.msg"
   "msg/OtherSubclassType.msg"
+
+  "msg/CrpOffsetted.msg"
+  "msg/DistanceValue.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
