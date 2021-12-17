@@ -35,14 +35,19 @@ set(msg_files
   "msg/LongitudinalAccelerationConfidence.msg"
   "msg/LongitudinalAccelerationWithConfidence.msg"
   "msg/ReferencePointId.msg"
-
   "msg/LinearVelocity.msg"
   "msg/LinearVelocityConfidence.msg"
   "msg/LinearVelocityWithConfidence.msg"
-
   "msg/YawRate.msg"
   "msg/YawRateConfidence.msg"
   "msg/YawRateWithConfidence.msg"
+
+  "msg/ObjectState.msg"
+  "msg/ObjectSize.msg"
+  "msg/ObjectLength.msg"
+  "msg/ObjectLengthConfidence.msg"
+  "msg/ObjectLengthWithConfidence.msg"
+  "msg/ObjectColor.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}

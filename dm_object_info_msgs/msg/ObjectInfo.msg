@@ -31,5 +31,5 @@ YawRateWithConfidence yaw_rate
 LongitudinalAccelerationWithConfidence acc
 
 # 物標の状態/属性
-
+ObjectState object_state
 
