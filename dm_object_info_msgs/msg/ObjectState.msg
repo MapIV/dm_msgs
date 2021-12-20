@@ -1,6 +1,3 @@
-# 物標の向き
-HeadingWithConfidence direction
-
 # 物標のサイズ
 ObjectSize size
 

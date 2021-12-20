@@ -12,7 +12,7 @@ ObjectClass object_class
 # 存在信頼度
 Existency existency
 
-# 位置と移動(only 位置)
+# 位置と移動 -> 位置と向き
 PoseWithConfidence pose
 
 # 物標参照位置
