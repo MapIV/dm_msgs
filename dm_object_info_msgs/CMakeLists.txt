@@ -74,6 +74,7 @@ set(msg_files
   "msg/OtherSubclassType.msg"
 
   "msg/CrpOffsetted.msg"
+  "msg/CrpId.msg"
   "msg/DistanceValue.msg"
   "msg/LaneNumberCount.msg"
   "msg/LaneNumber.msg"

@@ -1,5 +1,5 @@
 # CRP ID
-uint32 id
+CrpId id
 
 # dx_CRP
 DistanceValue dx

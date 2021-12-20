@@ -1,4 +1,4 @@
-uint32 crp_id_front
-uint32 crp_id_rear
+CrpId crp_id_front
+CrpId crp_id_rear
 
 DistanceRate vertical_perception
