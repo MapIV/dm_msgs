@@ -26,7 +26,7 @@ VehicleControlSystemStates control_system_states
 VehicleRole role
 
 # 車両用途種別毎の状態
-# TODO(fukukazu.kawata) No "unknown" state is defined on them field.
+VehicleExtendedInformation extended_info
 
 # 牽引車両
 ObjectId towing_vehicle_id

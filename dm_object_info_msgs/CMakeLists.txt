@@ -74,6 +74,8 @@ set(msg_files
 
   "msg/CrpOffsetted.msg"
   "msg/DistanceValue.msg"
+
+  "msg/VehicleExtendedInformation.msg"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
