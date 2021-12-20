@@ -1,4 +1,4 @@
-# CRP ID (not fixed)
+# CRP ID
 uint32 id
 
 # dx_CRP

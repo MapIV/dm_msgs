@@ -74,6 +74,12 @@ set(msg_files
 
   "msg/CrpOffsetted.msg"
   "msg/DistanceValue.msg"
+  "msg/LaneNumberCount.msg"
+  "msg/LaneNumber.msg"
+  "msg/LanePosition.msg"
+  "msg/LaneLateralPerception.msg"
+  "msg/LaneVerticalPerception.msg"
+  "msg/DistanceRate.msg"
 
   "msg/VehicleExtendedInformation.msg"
 )

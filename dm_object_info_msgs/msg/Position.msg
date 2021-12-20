@@ -5,4 +5,6 @@ LatitudeLongitudeCoodinate llc
 CrpOffsetted crp
 
 # レーン番号カウント
+LaneNumberCount lnc
+
 # レーン ID+オフセット
