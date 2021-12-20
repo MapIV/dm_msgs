@@ -1,4 +1,3 @@
-# not fixed
-uint32 UNKNOWN=0
+uint64 UNKNOWN=0
 
-uint32 id 0
+uint64 id 0
