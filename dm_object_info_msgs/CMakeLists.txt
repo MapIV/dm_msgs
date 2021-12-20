@@ -25,6 +25,7 @@ set(msg_files
   "msg/PositionWithConfidence.msg"
   "msg/LatitudeLongitudeCoodinate.msg"
   "msg/Position.msg"
+  "msg/GeodeticSystem.msg"
   "msg/PositionConfidence.msg"
   "msg/EllispeSemiAxisLength.msg"
   "msg/Altitude.msg"
@@ -80,6 +81,8 @@ set(msg_files
   "msg/LaneLateralPerception.msg"
   "msg/LaneVerticalPerception.msg"
   "msg/DistanceRate.msg"
+  "msg/LaneId.msg"
+  "msg/LaneIdOffsetted.msg"
 
   "msg/VehicleExtendedInformation.msg"
 )
