@@ -1,2 +1,0 @@
-LongitudinalAcceleration acc
-LongitudinalAccelerationConfidence confi

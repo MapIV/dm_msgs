@@ -1,3 +1,3 @@
 byte UNKNOWN=255
 
-byte id 255
+byte value 255

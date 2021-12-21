@@ -1,2 +1,0 @@
-LinearVelocity velocity
-LinearVelocityConfidence confi

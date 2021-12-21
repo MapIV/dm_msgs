@@ -1,2 +1,0 @@
-Heading heading
-HeadingConfidence confi

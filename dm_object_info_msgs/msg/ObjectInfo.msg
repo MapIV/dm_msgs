@@ -7,31 +7,110 @@ ObjectId id
 builtin_interfaces/Time stamp
 
 # 物標種別
-ObjectClass object_class
+ClassId class_id
+ClassConfidence class_confidence
+VehicleSubclassType vehicle_subclass_type
+ClassConfidence vehicle_subclass_type_confidence
+PersonSubclassType person_subclass_type
+ClassConfidence person_subclass_type_confidence
+AnimalSubclassType animal_subclass_type
+ClassConfidence animal_subclass_type_confidence
+OtherSubclassType other_subclass_type
+ClassConfidence other_subclass_type_confidence
 
 # 存在信頼度
 Existency existency
 
-# 位置と移動 -> 位置と向き
-PoseWithConfidence pose
-
+# 位置と移動
+# 経度緯度高さ
+GeodeticSystem geodetic_system_id
+Latitude latitude
+Longitude longitude
+Altitude altitude
+# CRP+オフセット
+CrpId crp_id
+DistanceValue dx_crp
+DistanceValue dy_crp
+DistanceValue dh_crp
+# レーン番号カウント
+LaneNumber lane_num
+LanePosition lane_position
+LaneLateralPerception lane_lateal_position
+CrpId crp_id_front
+CrpId crp_id_rear
+DistanceRate lane_vertical_position
+# レーン ID+オフセット
+LaneId lane_id
+DistanceValue dx_lane
+DistanceValue dy_lane
+DistanceValue dh_lane
+# 位置精度
+# 水平方向位置精度楕円長半径
+EllispeSemiAxisLength ellispe_semi_axis_length_major
+# 水平方向位置精度楕円短半径
+EllispeSemiAxisLength ellispe_semi_axis_length_minor
+# 水平方向位置精度楕円回転角
+Heading ellispe_orientation
+HeadingConfidence ellispe_orientation_confidence
+# 高さ方向位置精度
+HeightConfidence height_confidence
 # 物標参照位置
 ReferencePointId ref_point_id
-
 # 移動方向
-HeadingWithConfidence move_direction
-
+Heading move_direction
+HeadingConfidence move_direction_confidence
 # 速さ
-LinearVelocityWithConfidence linear_velocity
-
+SpeedExtended speed_extended
+SpeedExtendedConfidence speed_extended_confidence
 # 回転速度
-YawRateWithConfidence yaw_rate
-
+YawRateValue yaw_rate_value
+YawRateValueConfidence yaw_rate_value_confidence
 # 前後加速度
-LongitudinalAccelerationWithConfidence acc
+LongitudinalAcceleration longitudinal_acc
+LongitudinalAccelerationConfidence longitudinal_acc_confidence
 
 # 物標の状態/属性
-ObjectState object_state
-
+# 物標の向き
+Heading object_orientation
+HeadingConfidence object_orientation_confidence
+# 物標のサイズ
+ObjectLength object_bbx_length
+ObjectLengthConfidence object_bbx_length_confidence
+ObjectLength object_bbx_width
+ObjectLengthConfidence object_bbx_width_confidence
+ObjectLength object_bbx_height
+ObjectLengthConfidence object_bbx_height_confidence
+# 物標の色
+ObjectColor color
+# 車両の状態等
+# シフトポジション
+ShiftPosition shift_position
+# 前輪舵角
+SteeringWheelAngle steering_wheel_angle_front
+# 後輪舵角
+SteeringWheelAngle steering_wheel_angle_rear
+# ブレーキ状態
+BrakeState brake_state
+# 補助ブレーキ状態
+AuxiliaryBrakeState auxiliary_brake_state
+# アクセルペダル開度
+ThrottlePosition throttle_position
+# 灯火の状態
+ExteriorLights exterior_lights
+# 各種のシステムの作動状態
+VehicleControlSystemState adaptive_cruise_control_system
+VehicleControlSystemState cooperative_adaptive_cruise_control_system
+VehicleControlSystemState pre_crash_safety_system
+VehicleControlSystemState antilock_brake_system
+VehicleControlSystemState traction_control_system
+VehicleControlSystemState electronic_stability_control_system
+VehicleControlSystemState lane_keeping_assist_system
+VehicleControlSystemState lane_departure_warning_system
+# 車両用途種別
+VehicleRole vehicle_role
+# 車両用途種別毎の状態
+VehicleExtendedInformation vehicle_extended_info
+# 牽引車両
+ObjectId towing_vehicle_id
 # 情報源のリスト
-ObjectId[] source_list
+ObjectId[] information_source_list

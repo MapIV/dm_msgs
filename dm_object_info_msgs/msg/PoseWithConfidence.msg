@@ -1,2 +1,0 @@
-PositionWithConfidence position
-HeadingWithConfidence orientation

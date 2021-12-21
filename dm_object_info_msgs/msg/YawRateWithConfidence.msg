@@ -1,2 +1,0 @@
-YawRate rate
-YawRateConfidence confi
