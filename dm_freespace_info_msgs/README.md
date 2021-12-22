@@ -1,10 +1,10 @@
-# dm_object_info_msgs
+# dm_freespace_info_msgs
 
-物標情報のデータフォーマット
+フリースペース情報のデータフォーマット
 
 ## data list
 
-msg/ObjectInfo.msgをご確認ください
+msg/Freespace.msgをご確認ください
 
 ## 各ブランチの役割
 
