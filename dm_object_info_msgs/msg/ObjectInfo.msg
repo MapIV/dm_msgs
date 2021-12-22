@@ -2,84 +2,33 @@
 
 # 物標 ID
 ObjectId id
-
 # 情報取得時刻
 builtin_interfaces/Time stamp
-
 # 物標種別
-ClassId class_id
-ClassConfidence class_confidence
-VehicleSubclassType vehicle_subclass_type
-ClassConfidence vehicle_subclass_type_confidence
-PersonSubclassType person_subclass_type
-ClassConfidence person_subclass_type_confidence
-AnimalSubclassType animal_subclass_type
-ClassConfidence animal_subclass_type_confidence
-OtherSubclassType other_subclass_type
-ClassConfidence other_subclass_type_confidence
-
+# Just 'class' name is reserved by IDL. So, we use 'object_class' for naming
+ObjectClass[] object_class
 # 存在信頼度
 Existency existency
 
 # 位置と移動
-# 経度緯度高さ
-GeodeticSystem geodetic_system_id
-Latitude latitude
-Longitude longitude
-Altitude altitude
-# CRP+オフセット
-CrpId crp_id
-DistanceValue dx_crp
-DistanceValue dy_crp
-DistanceValue dh_crp
-# レーン番号カウント
-LaneNumber lane_num
-LanePosition lane_position
-LaneLateralPerception lane_lateal_position
-CrpId crp_id_front
-CrpId crp_id_rear
-DistanceRate lane_vertical_position
-# レーン ID+オフセット
-LaneId lane_id
-DistanceValue dx_lane
-DistanceValue dy_lane
-DistanceValue dh_lane
-# 位置精度
-# 水平方向位置精度楕円長半径
-EllispeSemiAxisLength ellispe_semi_axis_length_major
-# 水平方向位置精度楕円短半径
-EllispeSemiAxisLength ellispe_semi_axis_length_minor
-# 水平方向位置精度楕円回転角
-Heading ellispe_orientation
-HeadingConfidence ellispe_orientation_confidence
-# 高さ方向位置精度
-HeightConfidence height_confidence
+# 物標位置
+ObjectPosition position
 # 物標参照位置
 ReferencePointId ref_point_id
 # 移動方向
-Heading move_direction
-HeadingConfidence move_direction_confidence
+HeadingWithConfidence move_direction
 # 速さ
-SpeedExtended speed_extended
-SpeedExtendedConfidence speed_extended_confidence
+SpeedExtendedWithConfidence speed_extended
 # 回転速度
-YawRateValue yaw_rate_value
-YawRateValueConfidence yaw_rate_value_confidence
+YawRateValueWithConfidence yaw_rate_value
 # 前後加速度
-LongitudinalAcceleration longitudinal_acc
-LongitudinalAccelerationConfidence longitudinal_acc_confidence
+LongitudinalAccelerationWithConfidence longitudinal_acc
 
 # 物標の状態/属性
 # 物標の向き
-Heading object_orientation
-HeadingConfidence object_orientation_confidence
+HeadingWithConfidence orientation
 # 物標のサイズ
-ObjectLength object_bbx_length
-ObjectLengthConfidence object_bbx_length_confidence
-ObjectLength object_bbx_width
-ObjectLengthConfidence object_bbx_width_confidence
-ObjectLength object_bbx_height
-ObjectLengthConfidence object_bbx_height_confidence
+ObjectSize size
 # 物標の色
 ObjectColor color
 # 車両の状態等
@@ -98,14 +47,7 @@ ThrottlePosition throttle_position
 # 灯火の状態
 ExteriorLights exterior_lights
 # 各種のシステムの作動状態
-VehicleControlSystemState adaptive_cruise_control_system
-VehicleControlSystemState cooperative_adaptive_cruise_control_system
-VehicleControlSystemState pre_crash_safety_system
-VehicleControlSystemState antilock_brake_system
-VehicleControlSystemState traction_control_system
-VehicleControlSystemState electronic_stability_control_system
-VehicleControlSystemState lane_keeping_assist_system
-VehicleControlSystemState lane_departure_warning_system
+VehicleControlSystemStates vehicle_control_system_state
 # 車両用途種別
 VehicleRole vehicle_role
 # 車両用途種別毎の状態

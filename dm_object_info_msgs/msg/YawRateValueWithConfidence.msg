@@ -1,0 +1,2 @@
+YawRateValue value
+YawRateValueConfidence confi

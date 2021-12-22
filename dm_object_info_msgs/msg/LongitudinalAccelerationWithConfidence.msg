@@ -1,0 +1,2 @@
+LongitudinalAcceleration value
+LongitudinalAccelerationConfidence confi

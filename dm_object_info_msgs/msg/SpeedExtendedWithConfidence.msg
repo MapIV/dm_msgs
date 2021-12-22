@@ -1,0 +1,2 @@
+SpeedExtended value
+SpeedExtendedConfidence confi

@@ -1,0 +1,33 @@
+# 経度緯度高さ
+GeodeticSystem geodetic_system_id
+Latitude latitude
+Longitude longitude
+Altitude altitude
+# CRP+オフセット
+CrpId crp_id
+DistanceValue dx_crp
+DistanceValue dy_crp
+DistanceValue dh_crp
+# レーン番号カウント
+LaneNumber lane_num
+LanePosition lane_position
+LaneLateralPerception lane_lateal_position
+CrpId crp_id_front
+CrpId crp_id_rear
+DistanceRate lane_vertical_position
+# レーン ID+オフセット
+LaneId lane_id
+DistanceValue dx_lane
+DistanceValue dy_lane
+DistanceValue dh_lane
+
+# 位置精度
+# 水平方向位置精度楕円長半径
+EllispeSemiAxisLength ellispe_semi_axis_length_major
+# 水平方向位置精度楕円短半径
+EllispeSemiAxisLength ellispe_semi_axis_length_minor
+# 水平方向位置精度楕円回転角
+Heading ellispe_orientation
+HeadingConfidence ellispe_orientation_confidence
+# 高さ方向位置精度
+HeightConfidence height_confidence
