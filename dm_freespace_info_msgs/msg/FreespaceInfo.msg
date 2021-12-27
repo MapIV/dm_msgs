@@ -2,7 +2,7 @@
 dm_object_info_msgs/ObjectId id
 
 # 情報取得時刻
-builtin_interfaces/Time stamp
+dm_object_info_msgs/GeneratedTime time
 
 # 存在信頼度
 dm_object_info_msgs/Existency existency
