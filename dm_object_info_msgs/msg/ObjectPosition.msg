@@ -27,7 +27,6 @@ EllispeSemiAxisLength ellispe_semi_axis_length_major
 # 水平方向位置精度楕円短半径
 EllispeSemiAxisLength ellispe_semi_axis_length_minor
 # 水平方向位置精度楕円回転角
-Heading ellispe_orientation
-HeadingConfidence ellispe_orientation_confidence
+HeadingWithConfidence ellispe_orientation
 # 高さ方向位置精度
 HeightConfidence height_confidence

@@ -1,3 +1,0 @@
-Position position
-
-PositionConfidence confi

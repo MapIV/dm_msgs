@@ -1,4 +1,0 @@
-EllispeSemiAxisLength semi_axis_length_major
-EllispeSemiAxisLength semi_axis_length_minor
-
-HeightConfidence height_confi

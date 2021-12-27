@@ -22,7 +22,6 @@ set(msg_files
   "msg/ClassConfidence.msg"
   "msg/Existency.msg"
   "msg/GeodeticSystem.msg"
-  "msg/PositionConfidence.msg"
   "msg/EllispeSemiAxisLength.msg"
   "msg/Altitude.msg"
   "msg/Heading.msg"
