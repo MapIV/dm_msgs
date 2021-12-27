@@ -11,13 +11,13 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 find_package(ament_cmake REQUIRED)
-find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/ObjectInfo.msg"
   "msg/ObjectId.msg"
   "msg/ObjectPosition.msg"
+  "msg/GeneratedTime.msg"
   "msg/ClassId.msg"
   "msg/ClassConfidence.msg"
   "msg/Existency.msg"
@@ -72,7 +72,7 @@ set(msg_files
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES builtin_interfaces
+  DEPENDENCIES
   ADD_LINTER_TESTS
 )
 

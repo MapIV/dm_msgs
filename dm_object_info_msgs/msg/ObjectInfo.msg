@@ -3,7 +3,7 @@
 # 物標 ID
 ObjectId id
 # 情報取得時刻
-builtin_interfaces/Time stamp
+GeneratedTime time
 # 物標種別
 # Just 'class' name is reserved by IDL. So, we use 'object_class' for naming
 ObjectClass[] object_class
