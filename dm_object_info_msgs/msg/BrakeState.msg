@@ -1,4 +1,4 @@
 # DE_ブレーキ状態
-byte UNKNOWN=0
+uint8 UNKNOWN=0
 
-byte value 0
+uint8 value 0

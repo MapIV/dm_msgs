@@ -1,10 +1,10 @@
 # DE_シフトポジション
-byte NEUTRAL=0
-byte PARKING=1
-byte DRIVE=2
-byte REVERSE=3
-byte RESERVED_MIN=4
-byte RESERVED_MAX=6
-byte UNKNOWN=7
+uint8 NEUTRAL=0
+uint8 PARKING=1
+uint8 DRIVE=2
+uint8 REVERSE=3
+uint8 RESERVED_MIN=4
+uint8 RESERVED_MAX=6
+uint8 UNKNOWN=7
 
-byte id 7
+uint8 value 7

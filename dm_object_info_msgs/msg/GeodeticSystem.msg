@@ -3,4 +3,4 @@ uint32 JGD2011=6668
 
 uint32 UNKNOWN=0
 
-uint32 id 0
+uint32 value 0

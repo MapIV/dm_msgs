@@ -1,6 +1,6 @@
 # DE_OtherSubclassType
 
-byte UNKNOWN=0
-byte ROAD_SIDE_UNIT=1
+uint8 UNKNOWN=0
+uint8 ROAD_SIDE_UNIT=1
 
-byte id 0
+uint8 value 0

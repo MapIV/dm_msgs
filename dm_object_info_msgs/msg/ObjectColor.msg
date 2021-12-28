@@ -1,17 +1,17 @@
 # DE_物標色(独自定義)
-byte UNKNOWN=0
-byte BLACK  =1
-byte BROWN  =2
-byte RED    =3
-byte ORANGE =4
-byte YELLOW =5
-byte GREEN  =6
-byte BLUE   =7
-byte PURPLE =8
-byte GRAY   =9
-byte WHITE  =10
-byte GOLD   =11
-byte SILVER =12
-byte OTHER  =13
+uint8 UNKNOWN=0
+uint8 BLACK  =1
+uint8 BROWN  =2
+uint8 RED    =3
+uint8 ORANGE =4
+uint8 YELLOW =5
+uint8 GREEN  =6
+uint8 BLUE   =7
+uint8 PURPLE =8
+uint8 GRAY   =9
+uint8 WHITE  =10
+uint8 GOLD   =11
+uint8 SILVER =12
+uint8 OTHER  =13
 
-byte id 0
+uint8 value 0

@@ -1,8 +1,8 @@
 # DE_補助ブレーキ状態
 
-byte UNKNOWN=0
-byte OFF=1
-byte ON=2
-byte RESERVED=3
+uint8 UNKNOWN=0
+uint8 OFF=1
+uint8 ON=2
+uint8 RESERVED=3
 
-byte id 0
+uint8 value 0
