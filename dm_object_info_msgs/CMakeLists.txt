@@ -45,6 +45,7 @@ set(msg_files
   "msg/ObjectDimensionValue.msg"
   "msg/ObjectId.msg"
   "msg/ObjectInfo.msg"
+  "msg/ObjectInfoArray.msg"
   "msg/ObjectSize.msg"
   "msg/ReferencePoint.msg"
   "msg/SemiAxisLength.msg"

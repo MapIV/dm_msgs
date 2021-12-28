@@ -16,6 +16,7 @@ find_package(dm_object_info_msgs REQUIRED)
 
 set(msg_files
   "msg/FreespaceInfo.msg"
+  "msg/FreespaceInfoArray.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
