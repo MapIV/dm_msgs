@@ -2,25 +2,25 @@
 dm_object_info_msgs/ObjectId id
 
 # 情報取得時刻
-dm_object_info_msgs/GeneratedTime time
+dm_object_info_msgs/TimestampIts time
 
 # 存在信頼度
-dm_object_info_msgs/Existency existency
+dm_object_info_msgs/ExistenceConfidence existency
 
 # 検知漏れ物標サイズ
-dm_object_info_msgs/ObjectLength missing_detection_size
+dm_object_info_msgs/ObjectDimensionValue minimal_detectable_size
 
 # 始点位置
-dm_object_info_msgs/ObjectPosition position_flont
+dm_object_info_msgs/Location position_begin
 
 # 終点位置
-dm_object_info_msgs/ObjectPosition position_rear
+dm_object_info_msgs/Location position_end
 
 # 長さ
-dm_object_info_msgs/ObjectLengthWithConfidence length
+dm_object_info_msgs/ObjectDimension length
 
 # 始点物標 ID
-dm_object_info_msgs/ObjectId id_start
+dm_object_info_msgs/ObjectId id_begin
 
 # 終点物標 ID
 dm_object_info_msgs/ObjectId id_end

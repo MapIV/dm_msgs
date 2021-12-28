@@ -3,30 +3,29 @@
 # 物標 ID
 ObjectId id
 # 情報取得時刻
-GeneratedTime time
+TimestampIts time
 # 物標種別
-# Just 'class' name is reserved by IDL. So, we use 'object_class' for naming
 ObjectClass[] object_class
 # 存在信頼度
-Existency existency
+ExistenceConfidence existency
 
 # 位置と移動
 # 物標位置
-ObjectPosition position
+Location object_location
 # 物標参照位置
-ReferencePointId ref_point_id
+ReferencePoint ref_point
 # 移動方向
-HeadingWithConfidence move_direction
+WGS84Angle direction
 # 速さ
-SpeedExtendedWithConfidence speed_extended
+Speed speed
 # 回転速度
-YawRateValueWithConfidence yaw_rate_value
+YawRate yaw_rate
 # 前後加速度
-LongitudinalAccelerationWithConfidence longitudinal_acc
+Acceleration acc
 
 # 物標の状態/属性
 # 物標の向き
-HeadingWithConfidence orientation
+WGS84Angle orientation
 # 物標のサイズ
 ObjectSize size
 # 物標の色
@@ -35,9 +34,9 @@ ObjectColor color
 # シフトポジション
 ShiftPosition shift_position
 # 前輪舵角
-SteeringWheelAngle steering_wheel_angle_front
+SteeringAngle steering_angle_front
 # 後輪舵角
-SteeringWheelAngle steering_wheel_angle_rear
+SteeringAngle steering_angle_rear
 # ブレーキ状態
 BrakeState brake_state
 # 補助ブレーキ状態
@@ -47,12 +46,12 @@ ThrottlePosition throttle_position
 # 灯火の状態
 ExteriorLights exterior_lights
 # 各種のシステムの作動状態
-VehicleControlSystemStates vehicle_control_system_state
+ControlSystemStates control_system_states
 # 車両用途種別
 VehicleRole vehicle_role
 # 車両用途種別毎の状態
 VehicleExtendedInformation vehicle_extended_info
 # 牽引車両
-ObjectId towing_vehicle_id
+ObjectId towing_vehicle
 # 情報源のリスト
 ObjectId[] information_source_list

@@ -1,3 +1,3 @@
-ObjectLengthWithConfidence bbx_length
-ObjectLengthWithConfidence bbx_width
-ObjectLengthWithConfidence bbx_height
+ObjectDimension length
+ObjectDimension width
+ObjectDimension height
