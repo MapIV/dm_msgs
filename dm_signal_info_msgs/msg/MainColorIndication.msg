@@ -1,0 +1,10 @@
+uint8 UNKNOWN=0
+uint8 BLUE=1
+uint8 YELLOW=2
+uint8 RED=3
+uint8 BLUE_FLASHING=4
+uint8 YELLOW_FLASHING=5
+uint8 RED_FLASHING=6
+uint8 SAVING=7
+
+uint8 value 0
