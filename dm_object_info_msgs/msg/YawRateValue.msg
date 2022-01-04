@@ -1,3 +1,4 @@
+# 0.01 deg/s
 int16 MIN=-32766
 int16 MAX=32766
 

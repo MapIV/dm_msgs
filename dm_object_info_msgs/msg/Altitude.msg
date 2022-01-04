@@ -1,4 +1,5 @@
 # DE_Altitude
+# 0.01 m
 int32 MIN=-100000
 int32 MAX=800000
 

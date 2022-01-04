@@ -1,4 +1,5 @@
 # DE_Latitude
+# 0.1 micro deg
 int32 MIN=-900000000
 int32 MAX=900000000
 

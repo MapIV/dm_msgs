@@ -1,5 +1,5 @@
 # DE_SpeedExtended
-
+# 0.01 m/s
 int16 INVALID=-16383
 
 int16 MIN=-16832

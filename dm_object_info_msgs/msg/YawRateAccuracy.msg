@@ -1,3 +1,4 @@
+# 0.01 deg/s
 uint16 MIN=1
 uint16 MAX=32766
 
