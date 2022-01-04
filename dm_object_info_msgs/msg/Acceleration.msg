@@ -1,2 +1,2 @@
-LongitudinalAcceleration value
-LongitudinalAccelerationConfidence confi
+AccelerationValue value
+AccelerationAccuracy confi

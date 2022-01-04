@@ -1,2 +1,2 @@
-ObjectLength value
-ObjectLengthConfidence confi
+ObjectDimensionValue value
+ObjectDimensionAccuracy confi

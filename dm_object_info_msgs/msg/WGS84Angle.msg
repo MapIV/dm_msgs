@@ -1,2 +1,2 @@
-Heading value
-HeadingConfidence confi
+WGS84AngleValue value
+WGS84AngleAccuracy confi

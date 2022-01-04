@@ -1,2 +1,2 @@
-SpeedExtended value
-SpeedExtendedConfidence confi
+SpeedValue value
+SpeedAccuracy confi
