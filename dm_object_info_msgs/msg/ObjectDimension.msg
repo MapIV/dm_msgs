@@ -1,2 +1,2 @@
 ObjectDimensionValue value
-ObjectDimensionAccuracy confi
+ObjectDimensionAccuracy accuracy

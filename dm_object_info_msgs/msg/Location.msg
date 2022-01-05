@@ -9,7 +9,7 @@ DistanceValue dx_crp
 DistanceValue dy_crp
 DistanceValue dh_crp
 # レーン番号カウント
-LaneNumber lane_num
+LaneCount lane_count
 LanePosition lane_position
 LaneLateralPosition lane_lateal_position
 CrpId crp_id_begin

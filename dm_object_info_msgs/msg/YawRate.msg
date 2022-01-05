@@ -1,2 +1,2 @@
 YawRateValue value
-YawRateAccuracy confi
+YawRateAccuracy accuracy

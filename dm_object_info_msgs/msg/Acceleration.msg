@@ -1,2 +1,2 @@
 AccelerationValue value
-AccelerationAccuracy confi
+AccelerationAccuracy accuracy

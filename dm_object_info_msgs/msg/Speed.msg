@@ -1,2 +1,2 @@
 SpeedValue value
-SpeedAccuracy confi
+SpeedAccuracy accuracy

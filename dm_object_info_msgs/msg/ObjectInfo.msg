@@ -21,7 +21,7 @@ Speed speed
 # 回転速度
 YawRate yaw_rate
 # 前後加速度
-Acceleration acc
+Acceleration acceleration
 
 # 物標の状態/属性
 # 物標の向き
