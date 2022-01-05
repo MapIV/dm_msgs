@@ -15,18 +15,18 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(dm_object_info_msgs REQUIRED)
 
 set(msg_files
-  "msg/ArrowSignalIndication.msg"
+  "msg/ArrowLightIndication.msg"
   "msg/CountDownStopFlag.msg"
-  "msg/LightColorInfo.msg"
-  "msg/MainColorIndication.msg"
-  "msg/RemainTimeMax.msg"
-  "msg/RemainTimeMin.msg"
+  "msg/MainLightIndication.msg"
+  "msg/MaxTimeToChange.msg"
+  "msg/MinTimeToChange.msg"
   "msg/SignalClass.msg"
   "msg/SignalId.msg"
   "msg/SignalInfo.msg"
   "msg/SignalInfoArray.msg"
+  "msg/SignalLightInfo.msg"
   "msg/SignalState.msg"
-  "msg/SpecificControlFlag.msg"
+  "msg/SpecificControlFlags.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

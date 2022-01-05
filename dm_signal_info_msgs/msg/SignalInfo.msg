@@ -11,10 +11,10 @@ dm_object_info_msgs/TimestampIts time
 SignalState state
 
 # 特定制御動作中フラグ
-SpecificControlFlag specific_control_flag
+SpecificControlFlags specific_control_flags
 
 # カウントダウン停止フラグ
 CountDownStopFlag count_down_stop_flag
 
 # 灯色出力情報のリスト
-LightColorInfo[] light_color_info_list
+SignalLightInfo[] signal_light_info_list
