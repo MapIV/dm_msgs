@@ -1,0 +1,11 @@
+# DE_フュージョンオリジン
+uint8 UNKNOWN=0
+uint8 CAMERA=1
+uint8 RADAR=2
+uint8 CAMERA_RADAR=3
+uint8 LIDAR=4
+uint8 CAMERA_LIDAR=5
+uint8 RADAR_LIDAR=6
+uint8 CAMERA_RADAR_LIDAR=7
+uint8 RESERVED=8
+uint8 value 0

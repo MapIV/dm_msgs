@@ -1,0 +1,9 @@
+uint8 INITIALIZATION=0
+uint8 TRACKING=1
+uint8 LOST=2
+uint8 DISAPEARED=3
+uint8 COMBINED=4
+uint8 ERASED=5
+uint8 SPLIT=6
+uint8 OUTSIDE_FOV=7
+uint8 value 0

@@ -23,6 +23,9 @@ YawRate yaw_rate
 # 前後加速度
 Acceleration acceleration
 
+# DF_トラッキングステータス
+ObjectTrackingStatus tracking_status
+
 # 物標の状態/属性
 # 物標の向き
 WGS84Angle orientation
