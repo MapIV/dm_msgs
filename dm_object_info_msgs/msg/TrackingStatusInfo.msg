@@ -7,10 +7,10 @@ ExistenceConfidence existency
 TrackingStatus tracking_status
 
 # DE_マッチングカウント
-TrackingMatchCount match_count
+MatchingCount matching_count
 
 # DE_ライフタイム
-TrackingLifetime lifetime
+LifeTime life_time
 
 # DE_フュージョンオリジン
-TrackingFusionOrigin fusion_origin
+FusionOrigin fusion_origin

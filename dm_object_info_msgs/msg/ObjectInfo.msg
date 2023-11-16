@@ -24,7 +24,7 @@ YawRate yaw_rate
 Acceleration acceleration
 
 # DF_トラッキングステータス
-ObjectTrackingStatus tracking_status
+TrackingStatusInfo tracking_status
 
 # 物標の状態/属性
 # 物標の向き
