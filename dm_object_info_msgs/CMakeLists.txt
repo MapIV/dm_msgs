@@ -50,6 +50,7 @@ set(msg_files
   "msg/ObjectInfo.msg"
   "msg/ObjectInfoArray.msg"
   "msg/ObjectSize.msg"
+  "msg/ObjectSizeType.msg"
   "msg/ReferencePoint.msg"
   "msg/SemiAxisLength.msg"
   "msg/ShiftPosition.msg"

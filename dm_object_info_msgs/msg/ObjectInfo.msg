@@ -29,6 +29,8 @@ TrackingStatusInfo tracking_status
 # 物標の状態/属性
 # 物標の向き
 WGS84Angle orientation
+# サイズ種別
+ObjectSizeType size_type
 # 物標のサイズ
 ObjectSize size
 # 物標の色
