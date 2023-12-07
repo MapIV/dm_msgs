@@ -8,4 +8,4 @@ uint8 SMALL_VEHICLE=5
 uint8 PEDESTRIAN=6
 uint8 TRAM=7
 uint8 UNKNOWN=15
-uint8 value 0
+uint8 value 15
